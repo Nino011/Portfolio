@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Niño D. Pabellano | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Portfolio of Niño D. Pabellano, B.S. Computer Science student specializing in computer vision, data science, dashboards, and mobile application development."
+  />
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Niño D. Pabellano | Portfolio" />
+  <meta
+    property="og:description"
+    content="B.S. Computer Science student building systems in computer vision, data science, dashboards, and mobile development."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://your-portfolio-url.com" />
+  <!-- Replace with your real image when deployed -->
+  <meta property="og:image" content="https://your-portfolio-url.com/preview.png" />
+
+  <!-- Devicon icons for tech stacks -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+  />
+
+  <!-- Main CSS files -->
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/themes.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div class="nav-brand">
+        <div class="avatar">
+          <img
+            src="images/profile/avatar-nino.jpg"
+            alt="Portrait of Niño D. Pabellano"
+          />
+        </div>
+
+      </div>
+        <div class="nav-text">
+          <span class="nav-name">Niño D. Pabellano</span>
+          <span class="nav-role">B.S. Computer Science · Systems &amp; Application Development</span>
+        </div>
+      </div>
+      <div class="nav-right">
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          type="button"
+          aria-label="Toggle light or dark theme"
+        >
+          🌙 Dark
+        </button>
+        <button
+          class="nav-toggle"
+          onclick="toggleNav()"
+          type="button"
+          aria-label="Toggle navigation menu"
+        >
+          ☰ Menu
+        </button>
+        <div class="nav-links" id="navLinks">
+          <a href="#about" class="nav-link active">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#timeline" class="nav-link">Timeline</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#process" class="nav-link">Dev Process</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="page">
+    <main>
+      <!-- ABOUT / HERO -->
+      <section id="about" class="fade-in">
+        <div class="hero">
+          <div>
+            <div class="hero-highlight">
+              <span>🎓 B.S. Computer Science · Graduating June 2026</span>
+            </div>
+            <h1 class="hero-title">Hi, I’m Niño.</h1>
+            <p class="hero-subtitle">
+              I build systems and applications in computer vision, data science, dashboards, and mobile development.
+            </p>
+            <p class="hero-headline">
+              I like turning concrete problems into working tools—whether that is a translator for Filipino Sign
+              Language, a forecasting model, an operational dashboard, or a community-focused platform.
+            </p>
+            <p class="hero-meta">
+              Manuel S. Enverga University Foundation · Lucena City, Quezon Province
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn-primary">View Projects</a>
+              <!-- Replace resume.pdf with your real file later -->
+              <a href="CV2.pdf" download class="btn-ghost">Download Résumé</a>
+            </div>
+
+            <p class="muted" style="margin-bottom: 4px;">
+              GWA: <strong>1.42</strong> · Dean’s Lister (AY 2022–2026) · College Scholar (AY 2023–2026)
+            </p>
+            <p class="muted">
+              I enjoy working on practical solutions—from accessibility tools and forecasting systems
+              to dashboards and platforms that support communities and local services.
+            </p>
+          </div>
+          <div class="hero-card">
+            <div class="hero-card-row">
+              <span class="hero-card-label">Location</span>
+              <span class="hero-card-value">Lucena City, Quezon Province</span>
+            </div>
+            <div class="hero-card-row">
+              <span class="hero-card-label">Email</span>
+              <span class="hero-card-value">
+                <a href="mailto:ninopabellano@gmail.com">ninopabellano@gmail.com</a>
+              </span>
+            </div>
+            <div class="hero-card-row">
+              <span class="hero-card-label">Phone</span>
+              <span class="hero-card-value">(+63) 915 970 8526</span>
+            </div>
+            <div class="hero-card-row">
+              <span class="hero-card-label">Links</span>
+              <span class="hero-card-value">
+                <a
+                  href="https://www.linkedin.com/in/ni%C3%B1o-pabellano-042064382/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  LinkedIn
+                </a>
+                ·
+                <a
+                  href="https://github.com/Nino011"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  GitHub
+                </a>
+              </span>
+            </div>
+
+            <hr class="hero-card-divider" />
+            <div class="hero-card-row">
+              <span class="hero-card-label">Education</span>
+              <span class="hero-card-value">B.S. Computer Science</span>
+            </div>
+            <p class="subtle">
+              Relevant coursework: Data Structures &amp; Algorithms, Networks &amp; Communication, Operating Systems,
+              Information Assurance &amp; Security, Software Engineering, Database Systems, Cloud Computing.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS & TOOLS -->
+      <section id="skills" class="fade-in">
+        <div class="section-label">Skills &amp; Tools</div>
+        <h2 class="section-title">What I Work With <span></span></h2>
+
+        <div class="grid-2">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">Technical Skills</div>
+              <span class="pill">Technical</span>
+            </div>
+            <ul class="bullet-list">
+              <li>
+                <strong>Programming &amp; Development:</strong>
+                Python, R, Java, C/C++, SQL, JavaScript, Flutter, Blockchain (DApps), REST APIs
+              </li>
+              <li>
+                <strong>Data Science &amp; Analytics:</strong>
+                Machine learning, predictive modeling, time series forecasting, statistical analysis,
+                data cleaning, visualization (Power BI, Tableau, R)
+              </li>
+              <li>
+                <strong>Software Development:</strong>
+                Computer vision (CNNs), UI/UX design, cross-platform app development, database integration,
+                agile methodology
+              </li>
+              <li>
+                <strong>Deep Learning:</strong>
+                CNNs, RNNs, LSTMs, Transformers, Keras, TensorFlow Lite
+              </li>
+              <li>
+                <strong>Time Series Forecasting:</strong>
+                ARIMA/SARIMA, StatsModels, Prophet
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">Tools, Trainings &amp; Soft Skills</div>
+              <span class="pill">Profile</span>
+            </div>
+            <ul class="bullet-list">
+              <li>
+                <strong>Tools &amp; Platforms:</strong>
+                Git/GitHub, Jupyter Notebook, VS Code, Office 365, Linux, networking fundamentals, cloud services
+              </li>
+              <li>
+                <strong>Trainings &amp; Certificates:</strong>
+                Cisco Networking Basics (2023); Blockchain Development Training (DEVCON PH 2024);
+                Power BI Workshop (Campus DEVCON 2025); ASEAN Data Science Explorers (2025); Coursera:
+                Programming Languages I, R Programming, The Data Scientist’s Toolbox, Supervised Machine Learning
+                (Regression), Specialized Models (Time Series &amp; Survival Analysis)
+              </li>
+              <li>
+                <strong>Soft Skills:</strong>
+                Team leadership, technical communication, mentoring peers, event coordination, problem solving, time management
+              </li>
+              <li>
+                <strong>Languages:</strong>
+                Filipino (Native), English (Fluent)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- TIMELINE -->
+      <section id="timeline" class="fade-in">
+        <div class="section-label">Timeline</div>
+        <h2 class="section-title">Education &amp; Leadership <span></span></h2>
+        <div class="grid-2">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">Education</div>
+              <span class="pill">Academic</span>
+            </div>
+            <div class="timeline" aria-label="Education timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="timeline-year">2022 – 2026</div>
+                <div class="timeline-title">B.S. Computer Science</div>
+                <div class="timeline-desc">
+                  Manuel S. Enverga University Foundation · GWA 1.42<br />
+                  Dean’s Lister (AY 2022–2026), College Scholar (AY 2023–2026).
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="timeline-year">2023 – 2025</div>
+                <div class="timeline-title">Specialized Training &amp; Certifications</div>
+                <div class="timeline-desc">
+                  Cisco Networking Basics, Blockchain Development (DEVCON PH), Power BI Workshop,
+                  ASEAN Data Science Explorers, multiple Coursera certificates.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">Leadership &amp; Activities</div>
+              <span class="pill">Involvement</span>
+            </div>
+            <div class="timeline" aria-label="Leadership timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="timeline-year">2022 – Present</div>
+                <div class="timeline-title">Technical Committee Member</div>
+                <div class="timeline-desc">
+                  MSEUF Association of Multimedia Artists and Technologists · Coordinated technical events,
+                  supported members, and contributed to planning.
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="timeline-year">2024</div>
+                <div class="timeline-title">Team Leader · Virus Hunt Competition</div>
+                <div class="timeline-desc">
+                  Cyber Fest 2024 · Led a 5-member team to 2nd place in a cybersecurity challenge focused on
+                  malware analysis and threat mitigation.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECT SHOWCASE -->
+      <section id="projects" class="fade-in">
+        <div class="section-label">Project Showcase</div>
+        <h2 class="section-title">Systems &amp; Applications <span></span></h2>
+        <p class="muted" style="margin-bottom: 12px;">
+          This section highlights systems and applications built for coursework and personal projects.
+          The first project includes a full breakdown of the problem, features, architecture, media,
+          and development process summary.
+        </p>
+
+        <!-- Filters -->
+        <div class="project-filters">
+          <button class="filter-chip active" data-filter="all" type="button">All</button>
+          <button class="filter-chip" data-filter="cv" type="button">Computer Vision</button>
+          <button class="filter-chip" data-filter="mobile" type="button">Mobile</button>
+          <button class="filter-chip" data-filter="data" type="button">Data Science &amp; Dashboards</button>
+          <button class="filter-chip" data-filter="systems" type="button">Systems Design</button>
+        </div>
+
+        <!-- MAIN DETAILED PROJECT -->
+        <article class="card project-card" data-category="cv">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Real-Time Filipino Sign Language Translator</div>
+              <div class="project-meta">
+                Computer Vision · Accessibility · CNN · Python · OpenCV
+              </div>
+            </div>
+            <span class="pill">Detailed</span>
+          </div>
+
+          <div class="project-layout">
+            <!-- Left: text -->
+            <div>
+              <div class="project-section-title">Project Overview</div>
+              <p class="subtle">
+                A real-time translator that recognizes Filipino Sign Language (FSL) hand gestures using a
+                convolutional neural network (CNN) and computer vision, converting them into on-screen text.
+                The system runs on a standard webcam setup.
+              </p>
+
+              <div class="project-section-title">Problem the System Solves</div>
+              <p class="subtle">
+                Communication between FSL users and non-signers is often limited by the lack of tools tailored
+                specifically for FSL. This project offers a localized application that recognizes basic FSL
+                gestures and displays them as text in real time.
+              </p>
+
+              <div class="project-section-title">Key Features</div>
+              <ul class="bullet-list">
+                <li>Real-time capture and processing of hand gestures with a webcam and OpenCV.</li>
+                <li>CNN-based classification of FSL gestures with approximately <strong>88% accuracy</strong>.</li>
+                <li>On-screen translation of recognized gestures into text for easier interaction.</li>
+                <li>Optimized capture and inference pipeline that runs about <strong>30% faster</strong> than the baseline implementation.</li>
+              </ul>
+
+              <div class="project-section-title">What I Learned</div>
+              <ul class="bullet-list">
+                <li>How dataset design impacts model performance and robustness.</li>
+                <li>Practical trade-offs between model accuracy and real-time responsiveness.</li>
+              </ul>
+
+              <div class="project-section-title">Development Process Summary</div>
+              <p class="subtle">
+                <strong>Methodology:</strong> Iterative development with short cycles for data collection,
+                model training, evaluation, and interface refinement.
+              </p>
+              <p class="subtle">
+                <strong>Tools Used:</strong> Python, OpenCV, TensorFlow/Keras, Jupyter Notebook, Git/GitHub.
+              </p>
+              <p class="subtle">
+                <strong>Role &amp; Contributions:</strong> End-to-end development, including dataset preparation,
+                CNN architecture selection, training and tuning, performance evaluation, and integration of the
+                trained model into the real-time application.
+              </p>
+
+              <div class="stack-icons" aria-label="Tech stack icons">
+                <i class="devicon-python-plain colored" aria-hidden="true"></i>
+                <i class="devicon-opencv-plain colored" aria-hidden="true"></i>
+                <i class="devicon-tensorflow-original colored" aria-hidden="true"></i>
+              </div>
+            </div>
+
+            <!-- Right: media & architecture -->
+            <div>
+              <div class="project-media" style="margin-top: 10px;">
+                <p><strong>Web Application Overview:</strong></p>
+                <div class="media-placeholder">
+                  <img
+                    src="images/projects/fsl-translator/fsl-architecture.png"
+                    alt="System architecture for the real-time Filipino Sign Language translator"
+                    style="width:100%; height:100%; object-fit: cover; border-radius: 10px;"
+                  />
+                </div>
+          
+              <div class="project-media">
+                <p><strong>Demo Video:</strong></p>
+                <video
+                  src="videos\fsl-translator-demo.mp4"
+                  controls
+                  style="width:100%; border-radius: 10px;"
+                ></video>
+                <p class="media-note">
+                  Demo of the real-time Filipino Sign Language translator running on webcam input.
+                </p>
+              </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- MOBILE PROJECTS -->
+        <article class="card project-card" data-category="mobile">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Comet – Service-Matching Mobile App</div>
+              <div class="project-meta">
+                Flutter · Firebase · Geolocation · Payments
+              </div>
+            </div>
+            <span class="pill">Mobile App</span>
+          </div>
+          <p class="subtle">
+            Cross-platform mobile application built with Flutter and Firebase to match users with nearby
+            service providers. Integrates geolocation, secure payment workflows, and RESTful APIs to support
+            real-time updates and smooth interactions.
+          </p>
+          <ul class="bullet-list">
+            <li>Implemented location-based search and filtering for service providers.</li>
+            <li>Connected to Firebase for authentication and real-time data handling.</li>
+            <li>Integrated payment steps with secure handling of transaction-related data.</li>
+          </ul>
+          <div class="project-section-title">What I Learned</div>
+          <ul class="bullet-list">
+            <li>Handling asynchronous calls and state in a Flutter app with remote data.</li>
+            <li>Designing geolocation-based flows that remain usable on slower connections.</li>
+          </ul>
+          <div class="stack-icons" aria-label="Tech stack icons">
+            <i class="devicon-flutter-plain colored" aria-hidden="true"></i>
+            <i class="devicon-firebase-plain colored" aria-hidden="true"></i>
+          </div>
+          <div class="project-media">
+            <p><strong>Prototype Screen:</strong></p>
+            <div class="media-placeholder">
+              <img
+                src="images/projects/comet/comet-figma.png"
+                alt="Comet service-matching mobile app Figma prototype"
+                style="width:100%; height:100%; object-fit: cover; border-radius: 10px;"
+              />
+            </div>
+            <button
+              class="btn-ghost"
+              type="button"
+              data-modal-target="modal-comet"
+            >
+              View prototype
+            </button>
+          </div>
+        </article>
+
+        <article class="card project-card" data-category="mobile">
+          <div class="card-header">
+            <div>
+              <div class="card-title">AutoCart – Subscription E-Commerce Platform</div>
+              <div class="project-meta">
+                Mobile App Architecture · UI/UX · Database Integration
+              </div>
+            </div>
+            <span class="pill">E-Commerce</span>
+          </div>
+          <p class="subtle">
+            Subscription-based e-commerce mobile application concept supporting recurring orders and structured
+            onboarding. The project focused on interface design, data modeling, and iterative improvement of user flows.
+          </p>
+          <ul class="bullet-list">
+            <li>Defined app flows for subscription management and recurring billing.</li>
+            <li>Structured database entities for products, users, and subscriptions.</li>
+            <li>Reduced onboarding time by approximately <strong>20%</strong> through interface refinements.</li>
+          </ul>
+          <div class="project-section-title">What I Learned</div>
+          <ul class="bullet-list">
+            <li>How small changes in UI copy and layout can reduce friction during onboarding.</li>
+            <li>Planning database schemas around recurring events like renewals and cancellations.</li>
+          </ul>
+          <div class="stack-icons" aria-label="Tech stack icons">
+            <i class="devicon-flutter-plain colored" aria-hidden="true"></i>
+            <i class="devicon-mysql-plain colored" aria-hidden="true"></i>
+          </div>
+          <div class="project-media">
+            <p><strong>Prototype Screen:</strong></p>
+            <div class="media-placeholder">
+              <img
+                src="images/projects/autocart/autocart-figma.png"
+                alt="AutoCart subscription e-commerce Figma prototype"
+                style="width:100%; height:100%; object-fit: cover; border-radius: 10px;"
+              />
+            </div>
+            <button
+              class="btn-ghost"
+              type="button"
+              data-modal-target="modal-autocart"
+            >
+              View prototype
+            </button>
+          </div>
+        </article>
+
+        <!-- DATA SCIENCE & DASHBOARDS -->
+        <article class="card project-card" data-category="data">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Electricity Consumption Forecasting</div>
+              <div class="project-meta">
+                Time Series · SARIMA · R
+              </div>
+            </div>
+            <span class="pill">Data Science</span>
+          </div>
+          <p class="subtle">
+            Time series forecasting project using SARIMA models in R to predict monthly electricity demand.
+            The work emphasized data preprocessing, feature engineering, and model evaluation.
+          </p>
+          <ul class="bullet-list">
+            <li>Prepared and cleaned historical electricity consumption data.</li>
+            <li>Trained and validated SARIMA models using R and relevant statistical tests.</li>
+            <li>Improved forecast accuracy by approximately <strong>15%</strong> compared to a baseline model.</li>
+          </ul>
+          <div class="project-section-title">What I Learned</div>
+          <ul class="bullet-list">
+            <li>How to diagnose time series properties such as stationarity and seasonality.</li>
+            <li>Interpreting error metrics and choosing appropriate forecasting horizons.</li>
+          </ul>
+          <div class="stack-icons" aria-label="Tech stack icons">
+            <i class="devicon-r-original colored" aria-hidden="true"></i>
+          </div>
+          <div class="project-media">
+            <p><strong>Results (Matrix):</strong></p>
+            <div class="media-placeholder">
+              <img
+                src="images/projects/electricity-forecast/electricity-matrix.png"
+                alt="Matrix of evaluation metrics for electricity consumption forecasting model"
+                style="width:100%; height:100%; object-fit: cover; border-radius: 10px;"
+              />
+            </div>
+            <button
+              class="btn-ghost"
+              type="button"
+              data-modal-target="modal-electricity"
+            >
+              View details
+            </button>
+          </div>
+        </article>
+
+        <!-- DASHBOARD 1 -->
+        <article class="card project-card" data-category="data">
+          <div class="card-header">
+            <div>
+              <div class="card-title">E-Commerce Sales &amp; Customer Insights Dashboard (2024)</div>
+              <div class="project-meta">
+                Power BI · Data Visualization · Dashboard
+              </div>
+            </div>
+            <span class="pill">Dashboard</span>
+          </div>
+          <p class="subtle">
+            Interactive Power BI dashboard that tracks total revenue, orders, customers, and average order value,
+            with breakdowns by month, product category, and region. Designed to help stakeholders spot trends and
+            compare performance across segments.
+          </p>
+          <ul class="bullet-list">
+            <li>Built multiple pages summarizing executive KPIs, sales analysis, and customer behavior.</li>
+            <li>Implemented slicers for region, products, and time to support flexible analysis.</li>
+            <li>Highlighted which categories and regions contribute most to overall revenue.</li>
+          </ul>
+          <div class="project-section-title">What I Learned</div>
+          <ul class="bullet-list">
+            <li>Structuring KPIs and visuals so that non-technical users can quickly interpret performance.</li>
+            <li>Using filters and slicers to allow different stakeholders to answer their own questions.</li>
+          </ul>
+          <div class="project-media">
+            <p><strong>Dashboard Preview:</strong></p>
+            <div class="media-placeholder">
+              <img
+                src="images/projects/dashboards/dashboard-ecommerce.png"
+                alt="Power BI e-commerce sales and customer insights dashboard"
+                style="width:100%; height:100%; object-fit: cover; border-radius: 10px;"
+              />
+            </div>
+            <button
+              class="btn-ghost"
+              type="button"
+              data-modal-target="modal-dashboard-ecommerce"
+            >
+              View interactive dashboard
+            </button>
+          </div>
+        </article>
+
+        <!-- DASHBOARD 2 -->
+        <article class="card project-card" data-category="data">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Olympic Medal Management Dashboard (2024)</div>
+              <div class="project-meta">
+                Power BI · Data Visualization · Dashboard
+              </div>
+            </div>
+            <span class="pill">Dashboard</span>
+          </div>
+          <p class="subtle">
+            Power BI dashboard that presents 2024 Olympic medal standings by country and continent. Includes maps,
+            bar charts, and composition visuals to compare total medals and distribution by medal type.
+          </p>
+          <ul class="bullet-list">
+            <li>Combined geographic, categorical, and summary cards to show rankings and regional dominance.</li>
+            <li>Enabled filtering by continent, country, and medal type for focused analysis.</li>
+            <li>Summarized key insights such as top-performing countries and continents.</li>
+          </ul>
+          <div class="project-section-title">What I Learned</div>
+          <ul class="bullet-list">
+            <li>Designing dashboards that combine geospatial and categorical data in a single view.</li>
+            <li>Choosing chart types that clearly show rankings and proportions.</li>
+          </ul>
+          <div class="project-media">
+            <p><strong>Dashboard Preview:</strong></p>
+            <div class="media-placeholder">
+              <img
+                src="images/projects/dashboards/dashboard-olympic.png"
+                alt="Power BI Olympic medal dashboard with map and medal counts"
+                style="width:100%; height:100%; object-fit: cover; border-radius: 10px;"
+              />
+            </div>
+            <button
+              class="btn-ghost"
+              type="button"
+              data-modal-target="modal-dashboard-olympic"
+            >
+              View interactive dashboard
+            </button>
+          </div>
+        </article>
+
+        <!-- SYSTEMS DESIGN -->
+        <article class="card project-card" data-category="systems">
+          <div class="card-header">
+            <div>
+              <div class="card-title">TrashBank – EcoCredits for a Cleaner Future</div>
+              <div class="project-meta">
+                System Design · Community Platform · Digital Credits
+              </div>
+            </div>
+            <span class="pill">Systems Design</span>
+          </div>
+          <p class="subtle">
+            Designed a waste-to-credit system that converts weighed recyclable deposits into EcoCredits recorded
+            through a mobile or SMS wallet. The system supports clearer tracking of collection volumes,
+            improved segregation compliance, and increased participation among households in pilot evaluations.
+          </p>
+          <ul class="bullet-list">
+            <li>Defined the process for weighing recyclables and converting them into EcoCredits at transparent rates.</li>
+            <li>Outlined transaction flows for mobile, QR-based, and SMS-based wallets.</li>
+            <li>Included barangay-level dashboards for monitoring waste diversion and EcoCredit circulation.</li>
+          </ul>
+          <div class="project-section-title">What I Learned</div>
+          <ul class="bullet-list">
+            <li>How to translate real-world constraints into structured system components and data flows.</li>
+            <li>Thinking about incentives, accessibility, and local government workflows at the same time.</li>
+          </ul>
+          <div class="stack-icons" aria-label="Tech stack icons">
+            <i class="devicon-figma-plain colored" aria-hidden="true"></i>
+            <i class="devicon-nodejs-plain colored" aria-hidden="true"></i>
+          </div>
+          <div class="project-media">
+            <p><strong>Prototype Screen:</strong></p>
+            <div class="media-placeholder">
+              <img
+                src="images/projects/trashbank/trashbank-figma.png"
+                alt="TrashBank EcoCredits system Figma prototype"
+                style="width:100%; height:100%; object-fit: cover; border-radius: 10px;"
+              />
+            </div>
+            <button
+              class="btn-ghost"
+              type="button"
+              data-modal-target="modal-trashbank"
+            >
+              View prototype
+            </button>
+          </div>
+        </article>
+      </section>
+
+
+      <!-- DEVELOPMENT PROCESS SUMMARY -->
+      <section id="process" class="fade-in">
+        <div class="section-label">Development Process</div>
+        <h2 class="section-title">How I Approach Projects <span></span></h2>
+        <div class="grid-2">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">Methodologies</div>
+              <span class="pill">Approach</span>
+            </div>
+            <ul class="bullet-list">
+              <li>
+                Use iterative or agile-style development: break projects into milestones such as
+                requirements, data preparation, modeling, prototyping, and integration.
+              </li>
+              <li>
+                Start from a clear definition of the problem and constraints, then design the architecture
+                and data flow before implementation.
+              </li>
+              <li>
+                Evaluate results with both quantitative metrics (e.g., accuracy, error rates) and
+                qualitative feedback (e.g., ease of use, clarity of output).
+              </li>
+              <li>
+                Maintain version control and documentation to track changes and design decisions.
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">Roles &amp; Contributions</div>
+              <span class="pill">Responsibility</span>
+            </div>
+            <ul class="bullet-list">
+              <li>Lead development of models and core logic for projects such as the FSL translator and forecasting system.</li>
+              <li>Design application flows, user interfaces, and data structures for mobile and web prototypes (Comet, AutoCart, TrashBank).</li>
+              <li>Coordinate with team members, distribute tasks, and integrate components for group projects.</li>
+              <li>Prepare presentations, explain design choices, and create supporting diagrams and demo materials.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- LEADERSHIP & INVOLVEMENT -->
+      <section class="fade-in">
+        <div class="section-label">Leadership &amp; Involvement</div>
+        <h2 class="section-title">Beyond the Classroom <span></span></h2>
+        <div class="grid-2">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">MSEUF Association of Multimedia Artists and Technologists</div>
+              <span class="pill">Technical Committee · 2022–Present</span>
+            </div>
+            <ul class="bullet-list">
+              <li>Coordinate technical workshops and events for the department.</li>
+              <li>Provide guidance to members on technical aspects of projects and event execution.</li>
+              <li>Participate in organizational planning and decision-making.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">Virus Hunt Competition – Cyber Fest 2024</div>
+              <span class="pill">Team Leader · 2nd Place</span>
+            </div>
+            <ul class="bullet-list">
+              <li>Led a 5-member team in a department-wide cybersecurity challenge.</li>
+              <li>Worked on malware analysis, virus detection, and threat mitigation tasks.</li>
+              <li>Implemented workflow improvements that reduced task completion time by approximately 25%.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="fade-in">
+        <div class="section-label">Contact</div>
+        <h2 class="section-title">Get in Touch <span></span></h2>
+        <p class="muted" style="margin-bottom: 12px;">
+          For collaboration, project inquiries, or opportunities, you can reach me through the following:
+        </p>
+        <div class="contact-grid">
+          <div class="card">
+            <div class="contact-item-title">Email</div>
+            <p><a href="mailto:ninopabellano@gmail.com">ninopabellano@gmail.com</a></p>
+          </div>
+          <div class="card">
+            <div class="contact-item-title">Phone</div>
+            <p>(+63) 915 970 8526</p>
+          </div>
+          <div class="card">
+            <div class="contact-item-title">Location</div>
+            <p>Lucena City, Quezon Province, Philippines</p>
+          </div>
+          <div class="card">
+            <div class="contact-item-title">Online Profiles</div>
+            <p>
+              <!-- Replace # with your actual links -->
+              <a href="#" target="_blank" rel="noopener">LinkedIn</a><br />
+              <a href="#" target="_blank" rel="noopener">GitHub</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      © <span id="year"></span> Niño D. Pabellano. All rights reserved.
+    </footer>
+  </div>
+
+  <!-- Scroll to top button -->
+  <button class="scroll-top" id="scrollTopBtn" type="button" aria-label="Scroll to top">↑</button>
+
+  <!-- MODALS -->
+
+  <!-- FSL Translator Modal -->
+  <div class="modal-backdrop" id="modal-fsl" aria-hidden="true">
+    <div
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-fsl-title"
+    >
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-fsl-title">
+          Real-Time Filipino Sign Language Translator – Details
+        </h3>
+        <button class="modal-close" type="button" data-modal-close aria-label="Close dialog">
+          ✕
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="subtle">
+          This project uses a CNN-based model and OpenCV to recognize Filipino Sign Language gestures
+          and display them as text in real time.
+        </p>
+
+        <div class="modal-subtitle">Demo Video</div>
+        <div style="margin-bottom: 10px;">
+          <video
+            src="videos/fsl-translator-demo.mp4"
+            controls
+            style="width:100%; border-radius: 10px;"
+          ></video>
+        </div>
+
+        <div class="modal-subtitle">What I Learned</div>
+        <ul class="modal-list">
+          <li>Balancing model complexity and inference speed for real-time applications.</li>
+          <li>Designing a simple interface that focuses on clarity and readability for recognized signs.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Comet Modal -->
+  <div class="modal-backdrop" id="modal-comet" aria-hidden="true">
+    <div
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-comet-title"
+    >
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-comet-title">
+          Comet – Service-Matching Mobile App – Details
+        </h3>
+        <button class="modal-close" type="button" data-modal-close aria-label="Close dialog">
+          ✕
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="subtle">
+          Comet matches users with nearby service providers using location data and real-time updates.
+          Built with Flutter and Firebase.
+        </p>
+
+        <div class="modal-subtitle">Prototype Screen</div>
+        <div class="modal-images">
+          <div>
+            <img
+              src="images/projects/comet/comet-figma.png"
+              alt="Comet app Figma prototype showing main screen"
+              style="width:100%; border-radius: 10px;"
+            />
+          </div>
+        </div>
+
+        <div class="modal-subtitle">What I Learned</div>
+        <ul class="modal-list">
+          <li>Connecting Flutter UI elements to Firebase backend services.</li>
+          <li>Structuring navigation and state transitions for a multi-screen mobile app.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- AutoCart Modal -->
+  <div class="modal-backdrop" id="modal-autocart" aria-hidden="true">
+    <div
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-autocart-title"
+    >
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-autocart-title">
+          AutoCart – Subscription E-Commerce Platform – Details
+        </h3>
+        <button class="modal-close" type="button" data-modal-close aria-label="Close dialog">
+          ✕
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="subtle">
+          AutoCart focuses on recurring orders and a quick onboarding flow for subscription-based e-commerce.
+        </p>
+
+        <div class="modal-subtitle">Prototype Screen</div>
+        <div class="modal-images">
+          <div>
+            <img
+              src="images/projects/autocart/autocart-figma.png"
+              alt="AutoCart Figma prototype showing main subscription flow"
+              style="width:100%; border-radius: 10px;"
+            />
+          </div>
+        </div>
+
+        <div class="modal-subtitle">What I Learned</div>
+        <ul class="modal-list">
+          <li>Mapping user journeys for subscription-based services.</li>
+          <li>Thinking ahead about edge cases like failed renewals or payment changes.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Electricity Forecasting Modal -->
+  <div class="modal-backdrop" id="modal-electricity" aria-hidden="true">
+    <div
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-electricity-title"
+    >
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-electricity-title">
+          Electricity Consumption Forecasting – Details
+        </h3>
+        <button class="modal-close" type="button" data-modal-close aria-label="Close dialog">
+          ✕
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="subtle">
+          Forecasting monthly electricity demand using SARIMA models in R, with focus on improving accuracy
+          over a baseline model.
+        </p>
+
+        <div class="modal-subtitle">Matrix Result</div>
+        <div class="modal-images">
+          <div>
+            <img
+              src="images/projects/electricity-forecast/electricity-matrix.png"
+              alt="Matrix showing model performance metrics for electricity forecasting"
+              style="width:100%; border-radius: 10px;"
+            />
+          </div>
+        </div>
+
+        <div class="modal-subtitle">What I Learned</div>
+        <ul class="modal-list">
+          <li>Using diagnostic plots to select and validate SARIMA parameters.</li>
+          <li>Communicating forecasting performance in terms that non-technical audiences can understand.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- TrashBank Modal -->
+  <div class="modal-backdrop" id="modal-trashbank" aria-hidden="true">
+    <div
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-trashbank-title"
+    >
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-trashbank-title">
+          TrashBank – EcoCredits for a Cleaner Future – Details
+        </h3>
+        <button class="modal-close" type="button" data-modal-close aria-label="Close dialog">
+          ✕
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="subtle">
+          TrashBank turns properly sorted recyclables into EcoCredits that households can spend through
+          mobile or SMS-based wallets, supporting both environmental goals and local communities.
+        </p>
+
+        <div class="modal-subtitle">Prototype Screen</div>
+        <div class="modal-images">
+          <div>
+            <img
+              src="images/projects/trashbank/trashbank-figma.png"
+              alt="TrashBank Figma prototype showing EcoCredits wallet"
+              style="width:100%; border-radius: 10px;"
+            />
+          </div>
+        </div>
+
+        <div class="modal-subtitle">What I Learned</div>
+        <ul class="modal-list">
+          <li>Designing flows that work for both smartphone and non-smartphone users (e.g., QR and SMS).</li>
+          <li>Thinking about incentives, fairness, and governance in a community-centered system.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dashboard: E-Commerce Sales Modal -->
+  <div class="modal-backdrop" id="modal-dashboard-ecommerce" aria-hidden="true">
+    <div
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-dashboard-ecommerce-title"
+    >
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-dashboard-ecommerce-title">
+          E-Commerce Sales &amp; Customer Insights Dashboard (2024)
+        </h3>
+        <button class="modal-close" type="button" data-modal-close aria-label="Close dialog">
+          ✕
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="subtle">
+          Interactive Power BI dashboard that tracks online sales performance, customer behavior, and revenue
+          distribution by category and region.
+        </p>
+
+        <div class="modal-subtitle">Interactive Dashboard</div>
+        <div class="modal-iframe-wrapper">
+          <iframe
+            src="https://mseufeduph-my.sharepoint.com/personal/a22-33491_student_mseuf_edu_ph/_layouts/15/embed.aspx?UniqueId=9a1cd300-7df4-4be2-b524-0c4fe2df15d6"
+            width="100%"
+            height="420"
+            frameborder="0"
+            scrolling="no"
+            allowfullscreen
+            title="E-Commerce Sales &amp; Customer Insights Dashboard"
+          ></iframe>
+        </div>
+
+        <div class="modal-subtitle">Static Preview</div>
+        <div class="modal-images">
+          <div>
+            <img
+              src="images/projects/dashboards/dashboard-ecommerce.png"
+              alt="Main view of the e-commerce sales dashboard"
+              style="width:100%; border-radius: 10px;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dashboard: Olympic Medal Modal -->
+  <div class="modal-backdrop" id="modal-dashboard-olympic" aria-hidden="true">
+    <div
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-dashboard-olympic-title"
+    >
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-dashboard-olympic-title">
+          Olympic Medal Management Dashboard (2024)
+        </h3>
+        <button class="modal-close" type="button" data-modal-close aria-label="Close dialog">
+          ✕
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="subtle">
+          Interactive Power BI dashboard that presents medal distribution across countries and continents,
+          including rankings, composition by medal type, and geographic distribution.
+        </p>
+
+        <div class="modal-subtitle">Interactive Dashboard</div>
+        <div class="modal-iframe-wrapper">
+          <iframe
+            src="https://mseufeduph-my.sharepoint.com/personal/a22-33491_student_mseuf_edu_ph/_layouts/15/embed.aspx?UniqueId=423215e1-b021-4efb-a6ef-2b703ccd3dee"
+            width="100%"
+            height="420"
+            frameborder="0"
+            scrolling="no"
+            allowfullscreen
+            title="Olympic Medal Dashboard"
+          ></iframe>
+        </div>
+
+        <div class="modal-subtitle">Static Preview</div>
+        <div class="modal-images">
+          <div>
+            <img
+              src="images/projects/dashboards/dashboard-olympic.png"
+              alt="Olympic medal management Power BI dashboard"
+              style="width:100%; border-radius: 10px;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS files -->
+  <script src="js/theme.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+/* ================================
+   responsive.css
+   Layout tweaks for smaller screens
+   ================================ */
+
+@media (max-width: 768px) {
+  section::before {
+    left: -8px;
+  }
+
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .project-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .nav-links {
+    display: none;
+    width: 100%;
+    margin-top: 8px;
+    justify-content: flex-end;
+  }
+
+  .nav-links.show {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .page {
+    padding-bottom: 72px;
+  }
+
+  .hero-card {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+  }
+
+  .nav {
+    padding-inline: 10px;
+  }
+
+  .card {
+    padding-inline: 14px;
+  }
+
+  .project-layout {
+    gap: 12px;
+  }
+
+  .modal {
+    padding-inline: 14px;
+  }
+}

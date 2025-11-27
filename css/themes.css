@@ -1,0 +1,143 @@
+/* ================================
+   themes.css
+   Light theme overrides
+   ================================ */
+
+/* Light theme: global */
+
+body.light-theme {
+  --bg: #f3f4f6;
+  --bg-alt: #e5e7eb;
+  --card-bg: #ffffff;
+  --accent: #0ea5e9;
+  --accent-soft: rgba(14, 165, 233, 0.14);
+  --accent-strong: #0284c7;
+  --text-main: #111827;
+  --text-muted: #6b7280;
+  --border-subtle: #e5e7eb;
+  --shadow-soft: 0 12px 30px rgba(15, 23, 42, 0.2);
+
+  background: radial-gradient(circle at top, #e5f3ff 0, #f3f4f6 40%, #e5e7eb 100%);
+}
+
+/* Header / nav */
+
+body.light-theme header {
+  background: linear-gradient(
+    to bottom,
+    rgba(243, 244, 246, 0.98),
+    rgba(243, 244, 246, 0.9),
+    transparent
+  );
+  border-bottom-color: rgba(148, 163, 184, 0.3);
+}
+
+body.light-theme .avatar {
+  box-shadow: 0 0 0 4px rgba(209, 213, 219, 0.9);
+}
+
+body.light-theme .nav-links a {
+  background: radial-gradient(circle at top left, rgba(209, 213, 219, 0.8), transparent 70%);
+  border-color: rgba(148, 163, 184, 0.7);
+}
+
+body.light-theme .nav-links a:hover {
+  background: rgba(15, 23, 42, 0.9);
+  color: #f9fafb;
+}
+
+body.light-theme .nav-toggle,
+body.light-theme .theme-toggle {
+  background: #f9fafb;
+  color: #111827;
+  border-color: rgba(148, 163, 184, 0.7);
+}
+
+/* Hero */
+
+body.light-theme .hero-highlight {
+  background: #e0f2fe;
+  color: #0f172a;
+  border-color: rgba(14, 165, 233, 0.6);
+}
+
+/* Buttons */
+
+body.light-theme .btn-primary {
+  background: linear-gradient(to right, #0ea5e9, #38bdf8);
+  color: #f9fafb;
+}
+
+body.light-theme .btn-ghost {
+  background: #ffffff;
+  color: #111827;
+}
+
+/* Cards */
+
+body.light-theme .hero-card {
+  background: #ffffff;
+  border-color: #e5e7eb;
+}
+
+body.light-theme .card {
+  background: #ffffff;
+  border-color: #e5e7eb;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+body.light-theme .pill {
+  background: #f9fafb;
+}
+
+/* Tags, filters, media */
+
+body.light-theme .tag {
+  color: #0f172a;
+}
+
+body.light-theme .project-media {
+  background: #f9fafb;
+  border-color: rgba(148, 163, 184, 0.7);
+}
+
+body.light-theme .diagram-placeholder {
+  background: radial-gradient(circle at top, rgba(56, 189, 248, 0.24), #ffffff);
+}
+
+body.light-theme .filter-chip {
+  background: #f9fafb;
+  color: #4b5563;
+}
+
+body.light-theme .filter-chip.active {
+  background: linear-gradient(to right, #0ea5e9, #38bdf8);
+  color: #f9fafb;
+}
+
+/* Scroll-to-top */
+
+body.light-theme .scroll-top {
+  background: radial-gradient(circle at top, rgba(56, 189, 248, 0.85), #ffffff);
+}
+
+/* Modals */
+
+body.light-theme .modal {
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.2);
+}
+
+body.light-theme .modal-img-placeholder {
+  background: repeating-linear-gradient(
+    135deg,
+    rgba(191, 219, 254, 0.9),
+    rgba(191, 219, 254, 0.9) 8px,
+    #ffffff 8px,
+    #ffffff 16px
+  );
+}
+
+/* Devicon colors look better on light bg with a little more opacity */
+body.light-theme .stack-icons i {
+  opacity: 1;
+}
